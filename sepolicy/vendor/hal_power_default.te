@@ -20,3 +20,6 @@ allow hal_power_default sysfs_kprofiles:file rw_file_perms;
 
 # To get/set powerhal state property
 set_prop(hal_power_default, vendor_power_prop)
+
+allow hal_power_default sysfs_touchpanel:dir search;
+allow hal_power_default sysfs_touchpanel:{ file lnk_file } rw_file_perms;
