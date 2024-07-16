@@ -984,11 +984,11 @@ vendor/etc/thermal-youtube.conf
 vendor/etc/thermald-devices.conf
 -vendor/lib64/libthermalclient.so
 
-# Time
-vendor/app/TimeService/TimeService.apk
--vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
--vendor/lib64/libtime_genoff.so
+# Time - from LA.UM.9.1.r1-12900-SMxxx0.QSSI
+-vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
+-vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+-vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
 # WLAN
 -vendor/bin/cnss-daemon
