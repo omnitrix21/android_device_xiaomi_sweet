@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/halcyon_sweet.mk
+    $(LOCAL_DIR)/lineage_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    halcyon_sweet-user \
-    halcyon_sweet-userdebug \
-    halcyon_sweet-eng
+    lineage_sweet-user \
+    lineage_sweet-userdebug \
+    lineage_sweet-eng
