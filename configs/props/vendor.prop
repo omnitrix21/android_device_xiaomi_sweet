@@ -21,7 +21,6 @@ ro.config.vc_call_vol_steps=11
 ro.vendor.audio.soundfx.usb=true
 ro.vendor.audio.us.type=mius
 vendor.audio.adm.buffering.ms=6
-vendor.audio.dolby.ds2.enabled=true
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.anc_headset.enable=true
