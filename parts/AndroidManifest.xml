@@ -161,26 +161,6 @@
             android:exported="true"
             android:permission="RefreshService">
         </service>
-        <service
-            android:name=".RefreshRateTileService"
-            android:icon="@drawable/ic_qs_refresh_rate"
-            android:label="@string/refresh_rate_tile_title"
-            android:exported="true"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-
-        <activity
-            android:name=".TileEntryActivity"
-            android:label="@string/device_settings_app_name"
-            android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
-            </intent-filter>
-        </activity>
 
     </application>
 </manifest>

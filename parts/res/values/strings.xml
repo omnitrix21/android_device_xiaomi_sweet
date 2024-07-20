@@ -104,9 +104,6 @@
     <string name="haptic_level_summary">Amount of vibration intensity</string>
     <string name="haptic_level_summary_incompatible">Feature not supported</string>
 
-    <!-- Refresh Rate tile -->
-    <string name="refresh_rate_tile_title">Refresh Rate</string>
-
     <!-- Per-app refresh rate -->
     <string name="refresh_title">Per-app refresh rate</string>
     <string name="refresh_summary">Set the maximum refresh rate for a specific application</string>
