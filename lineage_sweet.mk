@@ -17,6 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # RisingTechOSS Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 # GMS
 WITH_GMS := true
