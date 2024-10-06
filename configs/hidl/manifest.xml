@@ -1,4 +1,5 @@
-<manifest version="3.0" type="device" target-level="5">
+<manifest version="2.0" type="device" target-level="5" >
+    <kernel target-level="5" />
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
@@ -171,15 +172,6 @@
         <interface>
             <name>IUceService</name>
             <instance>com.qualcomm.qti.uceservice</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.dolby.hardware.dms</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>IDms</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
